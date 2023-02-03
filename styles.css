@@ -71,7 +71,7 @@ header {
 
 .holberton_school-icon-arrow_3,
 .holberton_school-icon-arrow_4 {
-   font-size: 5rem;
+  font-size: 5rem;
 }
 
 .holberton_school-icon-check {
@@ -95,6 +95,11 @@ header {
 [class^='holberton_school-icon-ic'] {
   color: #ffffff;
   font-size: 30px;
+}
+
+.badge:hover,
+.badge:active {
+  opacity: 0.9;
 }
 
 .opacity-50 {
@@ -156,10 +161,9 @@ header {
   border-top-style: rounded;
 }
 
-
 .loader {
   border: 10px solid #f3f3f3;
-  border-top: 10px solid #C271FF;
+  border-top: 10px solid #c271ff;
   border-radius: 50%;
   width: 80px;
   height: 80px;
@@ -168,10 +172,10 @@ header {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-.carousel-quotes {
-  padding-left: 10px;
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
